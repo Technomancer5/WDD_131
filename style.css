@@ -1,0 +1,18 @@
+/* WDD 131 Portfolio Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header,
+main,
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    text-align: center;
+}
