@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 3rem;
+    background-color: #ffffff;
+    color: #111111;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.mission {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 5rem 10rem 3.5rem;
+    border: 1px solid #aaaaaa;
+}
+
+header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 1rem auto 0;
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid #dddddd;
+    color: #006eb6;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0 0 1.5rem;
+}
+
+.intro {
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+ol {
+    margin: 0;
+    padding-left: 2.5rem;
+}
+
+li {
+    margin-bottom: 1.4rem;
+    padding-left: 0.25rem;
+}
+
+.logo {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: 3.5rem auto 0;
+}
