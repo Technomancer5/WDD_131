@@ -48,6 +48,7 @@ const themeSelect = document.querySelector("#theme-select");
 const pageContent = document.querySelector("body");
 
 themeSelect.addEventListener("change", changeTheme);
+window.addEventListener("pageshow", changeTheme);
 
 function changeTheme() {
     const current = themeSelect.value;
