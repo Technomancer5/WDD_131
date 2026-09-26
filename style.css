@@ -87,8 +87,6 @@ body.theme-active footer,
 body.theme-active .webdev-picker,
 body.theme-active .theme-picker {
     background-color: transparent;
-    color: #1a1a1a;
-    text-shadow: none;
 }
 
 body.theme-ocean {
