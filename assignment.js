@@ -36,3 +36,10 @@ if (true) {
 }
 
 console.log("Course outside block:", course);
+
+const selectElem = document.getElementById("webdevlist");
+
+selectElem.addEventListener("change", function () {
+    const codeValue = selectElem.value;
+    console.log(codeValue);
+});
