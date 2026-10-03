@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    background-color: #1f3c5b;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 900px;
+    min-height: 60vh;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+section {
+    padding: 1.5rem;
+    background-color: #edf1f5;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #1f3c5b;
+}
+
+footer p {
+    margin: 0;
+}
+
+.webdev-picker,
+.theme-picker {
+    max-width: 350px;
+    margin: 2rem auto 0;
+    padding: 1.25rem;
+    text-align: center;
+    background-color: #e8eef4;
+    border: 1px solid #b8c4cf;
+    border-radius: 10px;
+}
+
+.webdev-picker label,
+.theme-picker label {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#webdevlist,
+#theme-select {
+    width: 100%;
+    max-width: 260px;
+    padding: 0.65rem 0.8rem;
+    font-size: 1.05rem;
+    color: #222;
+    background-color: #f0f3f6;
+    border: 1px solid #8094a6;
+    border-radius: 6px;
+}
+
+body.theme-active header,
+body.theme-active section,
+body.theme-active footer,
+body.theme-active .webdev-picker,
+body.theme-active .theme-picker {
+    background-color: transparent;
+}
+
+body.theme-ocean {
+    background-image: url("https://wddbyui.github.io/wdd131/images/ocean.jpg");
+    font-family: Papyrus, fantasy;
+}
+
+body.theme-forest {
+    background-image: url("https://wddbyui.github.io/wdd131/images/forest.jpg");
+    font-family: Impact, sans-serif;
+}
+
+body.theme-desert {
+    background-image: url("https://wddbyui.github.io/wdd131/images/desert.jpg");
+    font-family: Georgia, serif;
+}
+
+body.theme-active,
+body.theme-active * {
+    color: #1a1a1a;
+    text-shadow: none;
+}
